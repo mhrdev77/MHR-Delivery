@@ -1,0 +1,7 @@
+cd /mhrdev77/project/path
+git init
+git remote add origin https://github.com/mhrdev77/MHR-Delivery.git
+git add .
+git commit -m "🎉 initial delivery project"
+git branch -M main
+git push -u origin main
