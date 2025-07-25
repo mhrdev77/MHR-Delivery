@@ -1,28 +1,35 @@
-# MHR-Delivery 🍕📦
+# Delivery Service Toolkit
 
-A fast and modern delivery platform built with **React**, **Firebase**, and **Node.js** to serve Ethiopian customers in Amharic.
+## Tech Stack
+- React 18.2.0 + TypeScript 5.7.2 + Vite 6.3.1
+- Tailwind CSS 3.4.1 + shadcn/ui
+- React Router 7.5.1
 
-## 🛠 Tech Stack
+## Quick Start
 
-- ⚛️ React (Tailwind CSS)
-- 🔥 Firebase Auth + Firestore + Push Notifications
-- 🧾 Express.js API
-- 🌐 Plesk Hosting with Git-based CI/CD
-
-## ✨ Features
-
-- 👨‍🍳 Food ordering (Amharic UI)
-- 📦 Realtime order status
-- 🚀 Push notification (Admin → Customer)
-- 🛡 Role-based login (admin, user, delivery)
-- ⭐ Feedback system (rating + review)
-- 📈 Analytics dashboard
-- 📤 Export to CSV
-- ⚙️ Admin moderation tools
-
-## 📦 Deployment
-
+1. Install dependencies (recommended: bun):
 ```bash
+# Using bun (recommended - faster)
+bun install
+
+# Or using npm
 npm install
-npm run build   # frontend
-node server.js  # backend
+```
+
+2. Start development server:
+```bash
+bun dev
+# or npm run dev
+```
+
+3. Build for production:
+```bash
+bun run build
+# or npm run build
+```
+
+## Development
+- Local server: http://localhost:5173
+- Built with modern React patterns and TypeScript
+- Responsive design with Tailwind CSS
+- Pre-configured shadcn/ui components
